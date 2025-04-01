@@ -20,7 +20,7 @@ switch ($path) {
         echo "Page de projets";
         break;
     case '/contact':
-        echo "Page de contact";
+        include './templates/contact.php';
         break;
     
     default:
