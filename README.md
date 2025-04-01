@@ -1,1 +1,10 @@
-# portfolio-php1
+# portfolio-php
+
+
+Liste pages :
+
+- accueil
+- presentation
+- competences
+- projets
+- contact
