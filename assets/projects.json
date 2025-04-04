@@ -30,8 +30,8 @@
         "title": "Portfolio Photographique",
         "description": "Un site pour afficher et partager des photographies professionnelles.",
         "stack": [
-            "HTML",
-            "CSS",
+            "HTML5",
+            "CSS3",
             "JavaScript"
         ]
     },
@@ -40,7 +40,7 @@
         "description": "Un site permettant aux utilisateurs de regarder et partager des vidéos.",
         "stack": [
             "Angular",
-            ".NET Core",
+            "dotNET Core",
             "Azure"
         ]
     },
@@ -63,10 +63,10 @@
         ]
     },
     {
-        "title": "Plateforme de Réseautage Social",
+        "title": "Réseau Social",
         "description": "Un réseau social permettant aux utilisateurs de se connecter et partager du contenu.",
         "stack": [
-            "Ruby on Rails",
+            "Rails",
             "Redis",
             "Bootstrap"
         ]
