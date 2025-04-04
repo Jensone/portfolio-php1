@@ -6,15 +6,18 @@
  */
 $path = $_SERVER['REQUEST_URI'];
 
-switch ($path) {
+$cleanPath = preg_replace('/\?.*/', '', $path);
+
+switch ($cleanPath) {
     case '/':
         echo "Page d'accueil";
         break;
+    // Filter à partir de la fin de l'URL
     case '/about':
         echo "Page de présentation";
         break;
     case '/skills':
-        echo "Page de compétences";
+        include './templates/skills.php';
         break;
     case '/projects':
         echo "Page de projets";
@@ -24,6 +27,6 @@ switch ($path) {
         break;
     
     default:
-        echo 'Page 404, introuvable';
+        echo 'Page introuvable - 404 ';
         break;
 }
