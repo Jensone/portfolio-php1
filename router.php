@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Le routeur est chargé d'écouter les 
  * requêtes HTTP provenant du client web 
@@ -20,12 +21,12 @@ switch ($cleanPath) {
         include './templates/skills.php';
         break;
     case '/projects':
-        echo "Page de projets";
+        include './templates/projects.php';
         break;
     case '/contact':
         include './templates/contact.php';
         break;
-    
+
     default:
         echo 'Page introuvable - 404 ';
         break;
