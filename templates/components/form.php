@@ -7,7 +7,7 @@ Message -->
         <!-- Objets -->
         <div class="border border-slate-200 rounded-lg px-4 py-2 focus:border-slate-400 focus:shadow-md focus:outline-none">
             <select name="object" id="object" class="bg-transparent text-slate-800 w-full">
-                <option value="">-- À quel sujet me contactez-vous ?</option>
+                <option value="">-- À quel sujet me contactez-vous ? --</option>
                 <option value="Collaboration">Collaboration</option>
                 <option value="Formation">Formation</option>
                 <option value="Devis gratuit">Devis gratuit</option>
