@@ -3,7 +3,7 @@
 /**
  * Page des projets à partir du fichier
  * '/assets/projects.json
- * API des icone : https://devicon.dev/
+ * API des icones : https://devicon.dev/
  */
 
 $data = file_get_contents('./assets/projects.json'); // Récupération du contenu d'un fichier
@@ -39,9 +39,11 @@ function toSlug(string $stackIcon): string
             </ul>
         </div>
         <div class="w-24 text-slate-400 flex items-center justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24">
-                <path fill="currentColor" d="m8.006 21.308l-1.064-1.064L15.187 12L6.942 3.756l1.064-1.064L17.314 12z" />
-            </svg>
+            <a href="<?=  $item['link'] ?>" class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="m8.006 21.308l-1.064-1.064L15.187 12L6.942 3.756l1.064-1.064L17.314 12z" />
+                </svg>
+            </a>
         </div>
     </div>
 <? endforeach; ?>
